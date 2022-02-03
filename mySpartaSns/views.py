@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+# MVC 의 컨트롤러 역할
 # render이라는 함수는 template에 있는 html 파일을 찾아서 보여줍니다!
 
 def base_response(request):
